@@ -6,20 +6,20 @@
     "start": "node .output/server/index.mjs",
     "generate": "export NITRO_PRESET=browser && npm run build"
   },
+  "dependencies": {
+    "pinia": "^2.0.6"
+  },
   "devDependencies": {
     "@pinia/nuxt": "^0.1.6",
-    "element-plus": "1.2.0-beta.5",
-    "nuxt3": "^3.0.0-27307420.6a25d3e",
+    "element-plus": "1.2.0-beta.6",
+    "nuxt3": "3.0.0-27313139.1c88580",
     "sass": "^1.44.0",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "pnpm": {
     "overrides": {
-      "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
-      "@nuxt/kit-edge": "latest"
+      "@nuxt/kit": "npm:@nuxt/kit-edge@3.0.0-27313139.1c88580",
+      "@nuxt/kit-edge": "3.0.0-27313139.1c88580"
     }
-  },
-  "dependencies": {
-    "pinia": "^2.0.5"
   }
 }
