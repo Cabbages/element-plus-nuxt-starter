@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     title: 'ElementPlus + Nuxt3',
   },
   buildModules: [
-    '@vueuse/core/nuxt',
     '@pinia/nuxt',
   ],
   css: [
