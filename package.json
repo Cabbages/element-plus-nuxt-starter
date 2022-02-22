@@ -7,19 +7,25 @@
     "generate": "export NITRO_PRESET=browser && npm run build"
   },
   "dependencies": {
-    "pinia": "^2.0.6"
+    "pinia": "latest",
+    "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
-    "@pinia/nuxt": "^0.1.6",
-    "element-plus": "1.2.0-beta.6",
-    "nuxt3": "3.0.0-27313139.1c88580",
+    "@pinia/nuxt": "latest",
+    "@unocss/nuxt": "^0.22.2",
+    "element-plus": "latest",
+    "nuxt3": "latest",
     "sass": "^1.44.0",
-    "typescript": "^4.5.4"
+    "tailwind-config-viewer": "^1.6.3",
+    "tailwindcss": "^3.0.12",
+    "typescript": "^4.5.4",
+    "unplugin-vue-components": "^0.17.11"
   },
   "pnpm": {
     "overrides": {
-      "@nuxt/kit": "npm:@nuxt/kit-edge@3.0.0-27313139.1c88580",
-      "@nuxt/kit-edge": "3.0.0-27313139.1c88580"
+      "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+      "@nuxt/kit-edge": "latest",
+      "vite": "2.6.14"
     }
   }
 }
